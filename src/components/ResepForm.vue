@@ -43,7 +43,7 @@ const tambahResep = async () => {
     gambar: `src/assets/${gambar.value.name}`
   }
 
-  await axios.post('http://localhost:3003/resep', resepBaru)
+  await axios.post('https://jsonserver-production-8a4c.up.railway.app/resep', resepBaru)
   alert('Resep berhasil ditambahkan!')
 
   // Reset form
