@@ -18,7 +18,7 @@
         "Masukkan nasi dan kecap, aduk rata.",
         "Sajikan dengan taburan bawang goreng."
       ],
-      "gambar": "public/nasigoreng.jpg"
+      "gambar": "/nasigoreng.jpg"
     },
     {
       "id": "2",
@@ -37,7 +37,7 @@
         "Siapkan mangkuk, masukkan mie, ayam, bakso, dan sayur.",
         "Siram dengan kuah panas, siap disajikan."
       ],
-      "gambar": "public/mieayambakso.jpg",
+      "gambar": "/mieayambakso.jpg",
       "favorit": false
     },
     {
@@ -57,7 +57,7 @@
         "Tuang susu kental manis di atasnya.",
         "Sajikan selagi hangat."
       ],
-      "gambar": "public/rotibakar.jpg",
+      "gambar": "/rotibakar.jpg",
       "favorit": true
     },
     {
@@ -78,7 +78,7 @@
         "Siapkan bumbu kacang dan siram di atas sate.",
         "Taburi bawang goreng dan sajikan dengan lontong atau nasi."
       ],
-      "gambar": "public/sate.jpg",
+      "gambar": "/sate.jpg",
       "favorit": false
     }
   ]
