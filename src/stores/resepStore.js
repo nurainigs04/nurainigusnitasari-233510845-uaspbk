@@ -6,17 +6,17 @@ export const useResepStore = defineStore('resep', () => {
   const resepList = ref([])
 
   const ambilData = async () => {
-    const res = await axios.get('http://localhost:3003/resep')
+    const res = await axios.get('https://jsonserver-production-8a4c.up.railway.app/resep')
     resepList.value = res.data
   }
 
   const hapusResep = async (id) => {
-    await axios.delete(`http://localhost:3003/resep/${id}`)
+    await axios.delete(`https://jsonserver-production-8a4c.up.railway.app/resep/${id}`)
     ambilData()
   }
 
   const tambahFavorit = async (resep) => {
-  await axios.patch(`http://localhost:3003/resep/${resep.id}`, {
+  await axios.patch(`https://jsonserver-production-8a4c.up.railway.app/resep/${resep.id}`, {
     favorit: !resep.favorit
   })
   await ambilData()

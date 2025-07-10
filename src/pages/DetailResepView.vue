@@ -29,7 +29,7 @@ const getImageUrl = (filename) => {
 onMounted(async () => {
   try {
     const id = Number(route.params.id)
-    const res = await axios.get(`http://localhost:3003/resep/${id}`)
+    const res = await axios.get(`https://jsonserver-production-8a4c.up.railway.app/resep/${id}`)
     resep.value = res.data
   } catch (e) {
     console.error('Gagal ambil data:', e)
