@@ -1,0 +1,85 @@
+{
+  "resep": [
+    {
+      "id": "1",
+      "judul": "Nasi Goreng Spesial",
+      "kategori": "Makanan",
+      "favorit": true,
+      "bahan": [
+        "2 piring nasi",
+        "1 butir telur",
+        "Daging ayam suwir",
+        "2 sdm kecap manis",
+        "Bawang goreng untuk taburan"
+      ],
+      "langkah": [
+        "Panaskan minyak, tumis bawang sampai harum.",
+        "Masukkan ayam dan telur, aduk hingga matang.",
+        "Masukkan nasi dan kecap, aduk rata.",
+        "Sajikan dengan taburan bawang goreng."
+      ],
+      "gambar": "public/nasigoreng.jpg"
+    },
+    {
+      "id": "2",
+      "judul": "Mie Ayam Bakso",
+      "kategori": "Makanan",
+      "bahan": [
+        "1 bungkus mie telur",
+        "50g ayam suwir",
+        "5 butir bakso",
+        "Sawi rebus",
+        "Kecap dan minyak bawang"
+      ],
+      "langkah": [
+        "Rebus mie dan tiriskan.",
+        "Tumis ayam dengan bumbu kecap.",
+        "Siapkan mangkuk, masukkan mie, ayam, bakso, dan sayur.",
+        "Siram dengan kuah panas, siap disajikan."
+      ],
+      "gambar": "public/mieayambakso.jpg",
+      "favorit": false
+    },
+    {
+      "id": "3",
+      "judul": "Roti Bakar Coklat",
+      "kategori": "Makanan",
+      "bahan": [
+        "2 lembar roti tawar",
+        "Meses coklat",
+        "Keju parut",
+        "Susu kental manis",
+        "Margarin"
+      ],
+      "langkah": [
+        "Olesi roti dengan margarin dan isi dengan coklat dan keju.",
+        "Panggang di teflon hingga kecoklatan.",
+        "Tuang susu kental manis di atasnya.",
+        "Sajikan selagi hangat."
+      ],
+      "gambar": "public/rotibakar.jpg",
+      "favorit": true
+    },
+    {
+      "id": "4",
+      "judul": "Sate Madura",
+      "kategori": "Makanan",
+      "bahan": [
+        "500g daging ayam atau kambing",
+        "Tusuk sate",
+        "Kecap manis",
+        "Bumbu kacang",
+        "Bawang merah goreng",
+        "Lontong atau nasi"
+      ],
+      "langkah": [
+        "Potong-potong daging dan tusuk menggunakan tusukan sate.",
+        "Bakar sate di atas bara api sambil diolesi kecap.",
+        "Siapkan bumbu kacang dan siram di atas sate.",
+        "Taburi bawang goreng dan sajikan dengan lontong atau nasi."
+      ],
+      "gambar": "public/sate.jpg",
+      "favorit": false
+    }
+  ]
+}
